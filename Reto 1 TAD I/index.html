@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- Importamos el JQUERY -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <title>Document</title>
+    <title>Reto 1 TAD I</title>
 </head>
 
 <body>
@@ -45,11 +45,11 @@
                     </div>
                     <!-- lista desplegable -->
                     <div class="input-field col s6">
-                        <select name="imgSelect" id="imgSelect" class="browser-default">
+                        <select name="imgSelect" id="imgSelect" class="browser-default" onchange="cambiarConjuntoImages()">
                            <option value="" disabled selected>Seleccione una opción</option>
-                           <option value="1">Grupo de imagénes 1</option>
-                           <option value="2">Grupo de imagénes 2</option>
-                           <option value="3">Grupo de imagénes 3</option>
+                           <option value="1">Familia</option>
+                           <option value="2">Personajes de Kamen Rider</option>
+                           <option value="3">Personajes de Smash Bros</option>
                        </select>
                     </div>
                 </div>
@@ -92,6 +92,86 @@
                         <label class="checkeable">
                             <input type="checkbox" name="imagenesSeleccionadas[]" value="6" id="6">
                             <img class="responsive-img circle" src="img/6.png" alt="">
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <div class="row">
+                    <div class="col s2">
+                        <label class="checkeable">
+                            <input type="checkbox" name="imagenesSeleccionadas2[]" value="8" id="8">
+                            <img class="responsive-img circle" src="img2/8.png" alt="">
+                        </label>
+                    </div>
+                    <div class="col s2">
+                        <label class="checkeable">
+                            <input type="checkbox" name="imagenesSeleccionadas2[]" value="9" id="9">
+                            <img class="responsive-img circle" src="img2/9.png" alt="">
+                        </label>
+                    </div>
+                    <div class="col s2">
+                        <label class="checkeable">
+                            <input type="checkbox" name="imagenesSeleccionadas2[]" value="14" id="14">
+                            <img class="responsive-img circle" src="img2/14.png" alt="">
+                        </label>
+                    </div>
+                    <div class="col s2">
+                        <label class="checkeable">
+                            <input type="checkbox" name="imagenesSeleccionadas2[]" value="12" id="12">
+                            <img class="responsive-img circle" src="img2/12.png" alt="">
+                        </label>
+                    </div>
+                    <div class="col s2">
+                        <label class="checkeable">
+                            <input type="checkbox" name="imagenesSeleccionadas2[]" value="13" id="13">
+                            <img class="responsive-img circle" src="img2/13.png" alt="">
+                        </label>
+                    </div>
+                    <div class="col s2">
+                        <label class="checkeable">
+                            <input type="checkbox" name="imagenesSeleccionadas2[]" value="11" id="11">
+                            <img class="responsive-img circle" src="img2/11.png" alt="">
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <div class="row">
+                    <div class="col s2">
+                        <label class="checkeable">
+                            <input type="checkbox" name="imagenesSeleccionadas3[]" value="45" id="45">
+                            <img class="responsive-img circle" src="img3/45.png" alt="">
+                        </label>
+                    </div>
+                    <div class="col s2">
+                        <label class="checkeable">
+                            <input type="checkbox" name="imagenesSeleccionadas3[]" value="50" id="50">
+                            <img class="responsive-img circle" src="img3/50.png" alt="">
+                        </label>
+                    </div>
+                    <div class="col s2">
+                        <label class="checkeable">
+                            <input type="checkbox" name="imagenesSeleccionadas3[]" value="30" id="30">
+                            <img class="responsive-img circle" src="img3/30.png" alt="">
+                        </label>
+                    </div>
+                    <div class="col s2">
+                        <label class="checkeable">
+                            <input type="checkbox" name="imagenesSeleccionadas3[]" value="23" id="23">
+                            <img class="responsive-img circle" src="img3/23.png" alt="">
+                        </label>
+                    </div>
+                    <div class="col s2">
+                        <label class="checkeable">
+                            <input type="checkbox" name="imagenesSeleccionadas3[]" value="25" id="25">
+                            <img class="responsive-img circle" src="img3/25.png" alt="">
+                        </label>
+                    </div>
+                    <div class="col s2">
+                        <label class="checkeable">
+                            <input type="checkbox" name="imagenesSeleccionadas3[]" value="35" id="35">
+                            <img class="responsive-img circle" src="img3/35.png" alt="">
                         </label>
                     </div>
                 </div>
@@ -140,13 +220,14 @@
 
 
     </div>
-    <script src="js/algoritmosOrdenamiento.js"></script>
+    <script src="js/ayuda.js"></script>
 
     <!-- Importanción del javascript del Materialize -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
 
+    </script>
 </body>
-
 
 <!-- Código JQUERY -->
 <script type="text/javascript">
